@@ -1,0 +1,11 @@
+order_id,city,delivery_time_hours,status,cod_amount
+O001,Lahore,26,Delivered,3500
+O002,Karachi,48,Delivered,2200
+O003,Lahore,72,Returned,1800
+O004,Islamabad,30,Delivered,4000
+O005,Karachi,90,Returned,2600
+O006,Lahore,24,Delivered,1500
+O007,Islamabad,36,Delivered,3000
+O008,Karachi,60,Delayed,2800
+O009,Lahore,28,Delivered,2000
+O010,Islamabad,42,Delivered,3200
