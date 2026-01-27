@@ -1,0 +1,11 @@
+customer_id,plan_type,monthly_charge,usage_gb,billing_error,payment_status
+C001,Basic,25,18,No,Paid
+C002,Standard,40,55,Yes,Paid
+C003,Premium,70,82,No,Pending
+C004,Basic,25,12,No,Paid
+C005,Standard,40,60,Yes,Pending
+C006,Premium,70,95,No,Paid
+C007,Basic,25,8,No,Paid
+C008,Standard,40,48,No,Paid
+C009,Premium,70,110,Yes,Pending
+C010,Standard,40,52,No,Paid
