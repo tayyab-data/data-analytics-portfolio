@@ -102,7 +102,9 @@ a:hover { text-decoration: underline; }
 .profile-card { padding: 0 0 20px; }
 .banner {
   height: 120px;
-  background: linear-gradient(120deg, #0A66C2 0%, #2E8BC9 45%, #6FB1E0 100%);
+  background:
+    url('images/cover-banner.jpg') center/cover no-repeat,
+    linear-gradient(120deg, #0A66C2 0%, #2E8BC9 45%, #6FB1E0 100%);
 }
 .profile-photo {
   width: 128px;
@@ -210,6 +212,23 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 .feature-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+.feature-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: var(--li-blue-tint);
+}
+.feature-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  background: #fff;
+}
+@media (max-width: 520px) {
+  .feature-gallery { grid-template-columns: 1fr; }
+}
 .feature-body { padding: 16px; }
 .feature-body h3 { margin: 0 0 6px; font-size: 16px; }
 .feature-body p.desc { margin: 0 0 10px; font-size: 13px; color: var(--li-text-secondary); }
