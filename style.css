@@ -104,7 +104,7 @@ a:hover { text-decoration: underline; }
 .banner {
   height: 120px;
   background:
-    url('images/cover-banner.ipg') center/cover no-repeat,
+    url('images/cover-banner.jpg') center/cover no-repeat,
     linear-gradient(120deg, #0A66C2 0%, #2E8BC9 45%, #6FB1E0 100%);
 }
 .profile-photo {
